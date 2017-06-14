@@ -1,0 +1,36 @@
+.Choices {
+    background: #bfbfbf;
+    padding: 12rem 0;
+    text-align: center;
+    position: relative;  
+    &__divider {
+        width: 1px;
+        top: 20%;
+        bottom: 20%;
+        background: white;
+        left: 50%;
+        transform: translate(-50%, 0);
+        position: absolute;
+    }  
+}
+
+@media (max-width: 767px) {
+    .Choices {
+        padding: 6rem 0;
+        &__divider {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .Choices {
+        padding: 6rem 0;
+        .col-md-6:first-of-type .Button {
+            margin-bottom: 1.5rem;
+        }
+        &__divider {
+            display: none;
+        }
+    }
+}

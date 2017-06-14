@@ -1,0 +1,66 @@
+
+html, body{
+    font:1em/1;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr{
+    margin-bottom:1rem; 
+}
+
+// Links
+a:hover {
+    text-decoration: none;
+    color: normal;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+    color: $brand-primary;
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 2.5rem;
+}
+
+.h2 {
+    font-size: 2rem;
+}
+
+.h3 {
+    font-size: 1.75rem;
+}
+
+.h4 {
+    font-size: 1.5rem;
+}
+
+p, ul, li {
+    
+}
+
+// Helpers
+.island {
+    padding: 3rem 0;
+}
+
+.l-island {
+    padding: 6rem 0;
+}
+
+.coastal-bottom {
+    padding-bottom: 3rem;
+}
+
+@media(max-width: 768px) {
+    .l-island {
+        padding: 3rem 0;
+    }
+    // .island {
+    //     padding: 1.5rem 0;
+    // }
+}

@@ -1,0 +1,20 @@
+.Button {
+    padding: 6px 20px;
+    color: white;
+    display: inline-block;
+
+    &--primary {
+        background: $brand-primary;
+        color: white;
+        &:hover {
+            text-decoration: none;
+            color: white !important;
+            background: darken($brand-primary, 20%);
+        }
+    }
+
+    &--large {
+        padding: 6px 80px !important;
+        font-size: 18px;
+    }
+}

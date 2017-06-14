@@ -1,0 +1,52 @@
+.App {
+    background: #3e4c57;
+    color: white;
+    .green {
+        color: $brand-primary;
+    }
+    h2 {
+        color: white;
+        top: 45px;
+        position: relative;
+    }
+    p {
+        float: left;
+        max-width: 60%;
+    }
+    img {
+        max-width: 40%;
+        height: auto;
+        float: left;
+        position: relative;
+        top: -15px;
+    }
+}
+
+@media(max-width: 768px) {
+    .App {
+        h2 {
+            color: white;
+            top: 0px;
+            position: relative;
+        }
+        .col-md-5, .col-md-6 {
+            width: 100%;
+            flex: none;
+            display: block;
+            max-width: 100%;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .App {
+        h2 {
+            color: white;
+            top: 0px;
+            position: relative;
+        }
+        img {
+            top: 0px;
+        }
+    }
+}
