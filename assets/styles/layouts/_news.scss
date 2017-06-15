@@ -1,8 +1,17 @@
 .News {
+    
+    h2 + p {
+        margin-bottom: 3rem;
+    }
+
     &__img {
         height: 250px;
         width: 100%;
         background: #e5e5e5;
+        margin-bottom: 15px;
+    }
+    img {
+        max-width: 100%;
         margin-bottom: 15px;
     }
 }

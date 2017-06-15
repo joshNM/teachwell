@@ -8,9 +8,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="News-item">
-                    <div class="News__img">
-                        
-                    </div>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/news-item-1.jpg">
                     <h3>News Article Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -21,9 +19,7 @@
             </div>
             <div class="col-md-4">
                 <div class="News-item">
-                    <div class="News__img">
-                        
-                    </div>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/news-item-2.jpg">
                     <h3>News Article Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -34,9 +30,7 @@
             </div>
             <div class="col-md-4">
                 <div class="News-item">
-                    <div class="News__img">
-                        
-                    </div>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/news-item-3.jpg">
                     <h3>News Article Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
