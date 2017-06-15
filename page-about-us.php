@@ -3,4 +3,3 @@
 <?php get_template_part('templates/partial', 'choices'); ?>
 <?php get_template_part('templates/partial', 'news'); ?>
 <?php get_template_part('templates/partial', 'social'); ?>
-
