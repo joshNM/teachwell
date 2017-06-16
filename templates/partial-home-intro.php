@@ -8,16 +8,7 @@
                 <?php endwhile; ?>
             </div>
             <div class="col-sm-12 col-md-5">
-                <h2>What is it?</h2>
-                <ul>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                </ul>
+                <?php the_field('intro_sidebar'); ?>
             </div>
         </div>
     </div>
